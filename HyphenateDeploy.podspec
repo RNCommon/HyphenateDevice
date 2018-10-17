@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = "HyphenateDeploy"
   s.version = "3.5.1"
-  s.summary = "An Objective-C client for IM service"
-  s.description = "Hyphenate is a cloud-based PaaS (Platform as a Service) for Mobile Instant Messaging (MIM). We provide in-app messaging features such as one-to-one chat, group chat, voice message, picture/video/file sharing, location sharing, real-time voice/video calling, etc."
+  s.summary = "环信iOS SDK，用于真机打包"
+  s.description = "环信IM的iOS SDK中，其framework文件经过lipo处理后，专用于armv7和arm64平台的真机打包的库。"
   s.homepage = "https://github.com/gaoxiaosong/HyphenateDeploy"
   s.license = {
     :type => "Copyright",
